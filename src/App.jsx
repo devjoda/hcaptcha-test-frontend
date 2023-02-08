@@ -44,6 +44,7 @@ function App() {
     setLoading(true)
 
     if (!token) {
+      setLoading(false)
       toast({
         title: 'Error',
         position: 'bottom-right',
