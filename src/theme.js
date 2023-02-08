@@ -1,9 +1,9 @@
-import { extendTheme } from '@chakra-ui/react';
+import { extendTheme } from '@chakra-ui/react'
 
 const config = {
   initialColorMode: 'dark',
   useSystemColorMode: false,
-};
+}
 
 const theme = extendTheme({
   config,
@@ -12,6 +12,6 @@ const theme = extendTheme({
     heading: 'Inter, Avenir, Helvetica, Arial, sans-serif',
     mono: 'monospace',
   },
-});
+})
 
-export { theme };
+export { theme }
