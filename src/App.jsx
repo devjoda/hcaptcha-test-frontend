@@ -121,8 +121,8 @@ function App() {
       {loading && (
         <Center
           position="absolute"
-          width="100vw"
-          height="100vh"
+          width="100%"
+          height="100%"
           backgroundColor="black"
           opacity="0.70"
           zIndex="999"
